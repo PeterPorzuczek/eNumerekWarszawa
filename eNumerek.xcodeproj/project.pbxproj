@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		862D88D586D40BD3B87DE7A6 /* Pods_eNumerek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD34B23E7BF214C57677468B /* Pods_eNumerek.framework */; };
+		AE09F6551CDE34FF001395FD /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE09F6541CDE34FF001395FD /* ReservationViewController.swift */; };
+		AE09F6571CDF9529001395FD /* DepartmentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE09F6561CDF9529001395FD /* DepartmentDetailsViewController.swift */; };
+		AE09F65B1CDF9644001395FD /* EndpointDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE09F65A1CDF9644001395FD /* EndpointDataManager.swift */; };
+		AE4B14361CD8D0BD004877FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4B14351CD8D0BD004877FA /* AppDelegate.swift */; };
+		AE4B143B1CD8D0BD004877FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4B14391CD8D0BD004877FA /* Main.storyboard */; };
+		AE4B14401CD8D0BD004877FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4B143E1CD8D0BD004877FA /* LaunchScreen.storyboard */; };
+		AE4B14481CD927F8004877FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4B14471CD927F8004877FA /* Assets.xcassets */; };
+		AE9DB71A1CDAD73900E0C02B /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DB7191CDAD73900E0C02B /* LaunchViewController.swift */; };
+		AE9DB71C1CDB897F00E0C02B /* DepartmentChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DB71B1CDB897F00E0C02B /* DepartmentChoiceViewController.swift */; };
+		AE9DB7201CDB8E9C00E0C02B /* QueueDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DB71F1CDB8E9C00E0C02B /* QueueDetailsViewController.swift */; };
+		AE9DB7221CDCBF5B00E0C02B /* HelperClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DB7211CDCBF5B00E0C02B /* HelperClasses.swift */; };
+		AE9DB7241CDCBF7800E0C02B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9DB7231CDCBF7800E0C02B /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DB02E141C7EF93A35CC1CFD /* Pods-eNumerek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eNumerek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eNumerek/Pods-eNumerek.debug.xcconfig"; sourceTree = "<group>"; };
+		A3882AA42AA52419213B6A2D /* Pods-eNumerek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eNumerek.release.xcconfig"; path = "Pods/Target Support Files/Pods-eNumerek/Pods-eNumerek.release.xcconfig"; sourceTree = "<group>"; };
+		AE09F6541CDE34FF001395FD /* ReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		AE09F6561CDF9529001395FD /* DepartmentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentDetailsViewController.swift; sourceTree = "<group>"; };
+		AE09F65A1CDF9644001395FD /* EndpointDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndpointDataManager.swift; sourceTree = "<group>"; };
+		AE4B14321CD8D0BD004877FA /* eNumerek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eNumerek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4B14351CD8D0BD004877FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE4B143A1CD8D0BD004877FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE4B143F1CD8D0BD004877FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE4B14411CD8D0BD004877FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4B14471CD927F8004877FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE9DB7191CDAD73900E0C02B /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		AE9DB71B1CDB897F00E0C02B /* DepartmentChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentChoiceViewController.swift; sourceTree = "<group>"; };
+		AE9DB71F1CDB8E9C00E0C02B /* QueueDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueDetailsViewController.swift; sourceTree = "<group>"; };
+		AE9DB7211CDCBF5B00E0C02B /* HelperClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperClasses.swift; sourceTree = "<group>"; };
+		AE9DB7231CDCBF7800E0C02B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CD34B23E7BF214C57677468B /* Pods_eNumerek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eNumerek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4B142F1CD8D0BD004877FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862D88D586D40BD3B87DE7A6 /* Pods_eNumerek.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F663A76D5B4CB2C80CE6BAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DB02E141C7EF93A35CC1CFD /* Pods-eNumerek.debug.xcconfig */,
+				A3882AA42AA52419213B6A2D /* Pods-eNumerek.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		638FEC4C186526809B857899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD34B23E7BF214C57677468B /* Pods_eNumerek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE4B14291CD8D0BD004877FA = {
+			isa = PBXGroup;
+			children = (
+				AE4B14341CD8D0BD004877FA /* eNumerek */,
+				AE4B14331CD8D0BD004877FA /* Products */,
+				5F663A76D5B4CB2C80CE6BAF /* Pods */,
+				638FEC4C186526809B857899 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4B14331CD8D0BD004877FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B14321CD8D0BD004877FA /* eNumerek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4B14341CD8D0BD004877FA /* eNumerek */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B14351CD8D0BD004877FA /* AppDelegate.swift */,
+				AEE9A0ED1CE179360083CCA6 /* ViewControllers */,
+				AEDB75721CE2614F0099CC20 /* Managers */,
+				AEE9A0EE1CE179590083CCA6 /* Additional */,
+				AE4B14391CD8D0BD004877FA /* Main.storyboard */,
+				AE4B143E1CD8D0BD004877FA /* LaunchScreen.storyboard */,
+				AE4B14471CD927F8004877FA /* Assets.xcassets */,
+				AE4B14411CD8D0BD004877FA /* Info.plist */,
+			);
+			path = eNumerek;
+			sourceTree = "<group>";
+		};
+		AEDB75721CE2614F0099CC20 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AE09F65A1CDF9644001395FD /* EndpointDataManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		AEE9A0ED1CE179360083CCA6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE9DB7191CDAD73900E0C02B /* LaunchViewController.swift */,
+				AE9DB71B1CDB897F00E0C02B /* DepartmentChoiceViewController.swift */,
+				AE09F6561CDF9529001395FD /* DepartmentDetailsViewController.swift */,
+				AE9DB71F1CDB8E9C00E0C02B /* QueueDetailsViewController.swift */,
+				AE09F6541CDE34FF001395FD /* ReservationViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AEE9A0EE1CE179590083CCA6 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				AE9DB7211CDCBF5B00E0C02B /* HelperClasses.swift */,
+				AE9DB7231CDCBF7800E0C02B /* Extensions.swift */,
+			);
+			name = Additional;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4B14311CD8D0BD004877FA /* eNumerek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4B14441CD8D0BD004877FA /* Build configuration list for PBXNativeTarget "eNumerek" */;
+			buildPhases = (
+				34477E563EBE207B64D388AF /* Check Pods Manifest.lock */,
+				AE4B142E1CD8D0BD004877FA /* Sources */,
+				AE4B142F1CD8D0BD004877FA /* Frameworks */,
+				AE4B14301CD8D0BD004877FA /* Resources */,
+				EB59BF6868C1B7912F84996A /* Embed Pods Frameworks */,
+				B3ED8EDA3F04B4DA6B4E3BC0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eNumerek;
+			productName = eNumerek;
+			productReference = AE4B14321CD8D0BD004877FA /* eNumerek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4B142A1CD8D0BD004877FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Piotr;
+				TargetAttributes = {
+					AE4B14311CD8D0BD004877FA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6PY6HDE9SP;
+					};
+				};
+			};
+			buildConfigurationList = AE4B142D1CD8D0BD004877FA /* Build configuration list for PBXProject "eNumerek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE4B14291CD8D0BD004877FA;
+			productRefGroup = AE4B14331CD8D0BD004877FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4B14311CD8D0BD004877FA /* eNumerek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4B14301CD8D0BD004877FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4B14401CD8D0BD004877FA /* LaunchScreen.storyboard in Resources */,
+				AE4B14481CD927F8004877FA /* Assets.xcassets in Resources */,
+				AE4B143B1CD8D0BD004877FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34477E563EBE207B64D388AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3ED8EDA3F04B4DA6B4E3BC0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eNumerek/Pods-eNumerek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB59BF6868C1B7912F84996A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eNumerek/Pods-eNumerek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4B142E1CD8D0BD004877FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9DB7221CDCBF5B00E0C02B /* HelperClasses.swift in Sources */,
+				AE09F6571CDF9529001395FD /* DepartmentDetailsViewController.swift in Sources */,
+				AE09F6551CDE34FF001395FD /* ReservationViewController.swift in Sources */,
+				AE9DB71C1CDB897F00E0C02B /* DepartmentChoiceViewController.swift in Sources */,
+				AE4B14361CD8D0BD004877FA /* AppDelegate.swift in Sources */,
+				AE9DB7201CDB8E9C00E0C02B /* QueueDetailsViewController.swift in Sources */,
+				AE9DB71A1CDAD73900E0C02B /* LaunchViewController.swift in Sources */,
+				AE9DB7241CDCBF7800E0C02B /* Extensions.swift in Sources */,
+				AE09F65B1CDF9644001395FD /* EndpointDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE4B14391CD8D0BD004877FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4B143A1CD8D0BD004877FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE4B143E1CD8D0BD004877FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4B143F1CD8D0BD004877FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE4B14421CD8D0BD004877FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE4B14431CD8D0BD004877FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE4B14451CD8D0BD004877FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB02E141C7EF93A35CC1CFD /* Pods-eNumerek.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = eNumerek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Piotr.Porzuczek.eNumerekWarszawa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE4B14461CD8D0BD004877FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3882AA42AA52419213B6A2D /* Pods-eNumerek.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = eNumerek/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Piotr.Porzuczek.eNumerekWarszawa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4B142D1CD8D0BD004877FA /* Build configuration list for PBXProject "eNumerek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4B14421CD8D0BD004877FA /* Debug */,
+				AE4B14431CD8D0BD004877FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4B14441CD8D0BD004877FA /* Build configuration list for PBXNativeTarget "eNumerek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4B14451CD8D0BD004877FA /* Debug */,
+				AE4B14461CD8D0BD004877FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4B142A1CD8D0BD004877FA /* Project object */;
+}

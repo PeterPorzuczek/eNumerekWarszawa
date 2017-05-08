@@ -1,0 +1,28 @@
+PODS:
+  - DynamicButton (2.1.0)
+  - EXTView (0.1.0)
+  - KeepBackgroundCell (0.2.0)
+  - NVActivityIndicatorView (2.5)
+  - Spring (1.0.3)
+  - SwiftRegExp (1.4)
+  - SWXMLHash (2.3.1)
+
+DEPENDENCIES:
+  - DynamicButton
+  - EXTView
+  - KeepBackgroundCell
+  - NVActivityIndicatorView
+  - Spring
+  - SwiftRegExp
+  - SWXMLHash
+
+SPEC CHECKSUMS:
+  DynamicButton: 08c809fdee3c4feb34a20beeba64c069a529d176
+  EXTView: db5ded8520d2023cadb1b9225fb1ad9406064f04
+  KeepBackgroundCell: d8f02dbb2bb99f2fcd21b3ab94516c4d54208989
+  NVActivityIndicatorView: 18e82784c9cb2d5f3df3129a3e4754eb075ebca0
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftRegExp: 9da6ef4bcc4ac3c2b3a30dd723ff9465761cf4c0
+  SWXMLHash: 795c66e74f4cc9473ad6465c6653c5a6f59f417e
+
+COCOAPODS: 0.39.0
