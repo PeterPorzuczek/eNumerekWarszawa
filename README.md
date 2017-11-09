@@ -9,7 +9,7 @@ This app shows information about queues from Warsaw city council system.
 Screenshots
 ========
 <div>
-<img src="http://i.imgur.com/FUSolti.gif" alt="app-preview" width="552" height="414">
+<img src="http://i.imgur.com/FUSolti.gif" alt="app-preview" width="70%" height="70%">
 </div>
 
 Configuration
